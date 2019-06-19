@@ -1,0 +1,18 @@
+{
+    "name": "loranger/builder",
+    "description": "BTT Touch Bar Gitmoji builder",
+    "authors": [
+        {
+            "name": "Laurent Goussard",
+            "email": "loranger@free.fr"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "BTT\\": "src/BTT/"
+        }
+    }
+}
